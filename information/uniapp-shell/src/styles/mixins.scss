@@ -1,0 +1,45 @@
+@import '@/styles/variables.scss';
+
+// 文本单行截断
+@mixin text-ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+// 文本多行截断
+@mixin text-multi-ellipsis($lines: 2) {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $lines;
+  overflow: hidden;
+}
+
+// Flex 居中
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+// Flex 两端对齐
+@mixin flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+// 主题按钮通用样式
+@mixin primary-button {
+  background: linear-gradient(135deg, $color-primary 0%, $color-secondary 100%);
+  color: $color-text-white;
+  font-weight: 600;
+  border-radius: $radius-full;
+  border: none;
+  box-shadow: $shadow-md;
+  
+  &:active {
+    opacity: 0.9;
+    transform: scale(0.98);
+  }
+}

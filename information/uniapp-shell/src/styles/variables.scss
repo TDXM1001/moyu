@@ -1,0 +1,49 @@
+// ==========================================
+// 租房系统 Design Tokens 变量定义
+// ==========================================
+
+// 1. 颜色体系 (Colors)
+$color-primary: #F28A00;          // 品牌主色 (暖橙)
+$color-primary-dark: #D97800;     // 悬停/点击深态
+$color-primary-light: #FFF5E6;    // 浅橙背景 / 激活态浅底
+$color-secondary: #E5A039;        // 辅助金橙 (渐变辅色)
+
+$color-text-main: #202020;        // 一级标题 / 房源名称
+$color-text-regular: #505050;     // 正文 / 属性文本
+$color-text-muted: #747474;       // 次级弱化 / TabBar 未激活
+$color-text-placeholder: #A6A6A6; // 占位符文本
+$color-text-white: #FFFFFF;       // 纯白文本
+
+$color-bg-page: #F8F6F2;          // 页面主体底色 (暖米白)
+$color-bg-card: #FFFFFF;          // 卡片背景 (纯白)
+$color-bg-sub: #F2EFE9;           // 次级背景 (搜索框/浅灰底)
+
+$color-border: #EBE6DF;           // 分割线 / 极细边框
+$color-border-light: #F4F1EC;     // 浅描边
+
+// 2. 字体与排版尺寸 (Typography)
+$font-size-hero: 48rpx;
+$font-size-title-1: 36rpx;
+$font-size-title-2: 30rpx;
+$font-size-body: 28rpx;
+$font-size-caption: 24rpx;
+$font-size-micro: 20rpx;
+
+// 3. 圆角系统 (Border Radius)
+$radius-xl: 32rpx;                // 房源大卡片、弹窗面板
+$radius-lg: 20rpx;                // 列表图片、输入框、按钮
+$radius-md: 12rpx;                // 标签 Tag、小胶囊
+$radius-sm: 6rpx;                 // 极小徽标
+$radius-full: 999rpx;             // 胶囊按钮、圆形按钮
+
+// 4. 间距系统 (Spacing)
+$spacing-xs: 8rpx;
+$spacing-sm: 16rpx;
+$spacing-md: 24rpx;
+$spacing-lg: 32rpx;
+$spacing-xl: 48rpx;
+
+// 5. 阴影系统 (Shadows)
+$shadow-sm: 0 4rpx 12rpx rgba(0, 0, 0, 0.04);
+$shadow-md: 0 8rpx 24rpx rgba(242, 138, 0, 0.12);
+$shadow-tab: 0 -4rpx 20rpx rgba(0, 0, 0, 0.05);

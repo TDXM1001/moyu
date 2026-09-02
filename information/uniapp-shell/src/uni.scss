@@ -1,0 +1,25 @@
+/**
+ * 租房项目全局主题与 SCSS 变量注入
+ */
+
+// 1. 注入自定义 Design Tokens
+@import '@/styles/variables.scss';
+@import '@/styles/mixins.scss';
+
+// 2. 覆盖 uni-ui 内置系统变量为我们的 UI 规范
+$uni-color-primary: $color-primary;
+$uni-color-success: #52C41A;
+$uni-color-warning: $color-secondary;
+$uni-color-error: #FF4D4F;
+
+$uni-text-color: $color-text-main;
+$uni-text-color-inverse: $color-text-white;
+$uni-text-color-grey: $color-text-muted;
+$uni-text-color-placeholder: $color-text-placeholder;
+
+$uni-bg-color: $color-bg-card;
+$uni-bg-color-grey: $color-bg-page;
+
+$uni-border-color: $color-border;
+$uni-border-radius-lg: $radius-lg;
+$uni-border-radius-base: $radius-md;
